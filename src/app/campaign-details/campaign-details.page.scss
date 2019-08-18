@@ -1,0 +1,67 @@
+ion-card img{
+    height: 10em;
+}
+.firstInner,.secondInner{
+    ul{
+        list-style: none;
+        font-family: lato-regular;
+    }
+    color: #000;
+    h2{
+        font-family: lato-bold;
+    }
+    .innerCard{
+        background-color: #2b8be3;
+        border-radius: 10px;
+        font-family: lato-regular;
+        .innerNum{
+       background-color: #fff;
+        border-radius: 50%;
+        margin-left: -6em;
+        padding: 2.8em;
+        max-width: 150px;
+        color: #2b8be3;
+        text-align: right;
+        p{
+            font-size: 24px;
+        }
+        
+        }
+        .dataTyping{
+            padding: 2.8em;
+            color: #fff;
+            font-size: 16px
+        }
+    }
+}
+ion-grid,ion-col{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fonts
+@font-face {
+    font-family: lato-bold;
+    src: url('../../assets/font/Lato-Bold.ttf');
+
+}
+@font-face {
+    font-family: lato-regular;
+    src: url('../../assets/font/Lato-Regular.ttf');
+
+}

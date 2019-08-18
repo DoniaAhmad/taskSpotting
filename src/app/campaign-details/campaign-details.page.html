@@ -1,0 +1,58 @@
+<ion-content padding>
+  <ion-card>
+    <img src="assets/imgs/cardBack.jpg"/>
+    <ion-card-content>
+      <div class="firstInner">
+          <h2>Description</h2>
+          <ul *ngFor="let x of data">
+            <li>{{x}}</li>
+          </ul>
+      </div>
+      <div class="secondInner">
+       <h2> Missions</h2>
+       <ion-card class="innerCard">
+           <ion-grid>
+             <ion-row>
+               <ion-col size='3'>
+                 <div class='innerNum'>
+                   <p>1</p>
+                 </div>
+               </ion-col>
+               <ion-col size='9'>
+                 <p class="dataTyping">Apply for your kit</p>
+               </ion-col>
+             </ion-row>
+           </ion-grid>
+       </ion-card>
+       <ion-card class="innerCard">
+          <ion-grid>
+            <ion-row>
+              <ion-col size='3'>
+                <div class='innerNum'>
+                  <p>1</p>
+                </div>
+              </ion-col>
+              <ion-col size='9'>
+                <p class="dataTyping">Apply for your kit</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+      </ion-card>
+      <ion-card class="innerCard">
+          <ion-grid>
+            <ion-row>
+              <ion-col size='3'>
+                <div class='innerNum'>
+                  <p>1</p>
+                </div>
+              </ion-col>
+              <ion-col size='9'>
+                <p class="dataTyping">Apply for your kit</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+      </ion-card>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
